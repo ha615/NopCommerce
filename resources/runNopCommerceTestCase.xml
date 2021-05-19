@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="false">
+
+	<test name="RUN ON FIREFOX"> <parameter name="browser" value="firefox" /> 
+		<classes> 
+<!-- 			<class name="com.nopcommerce.register.Register_Page_Object_Model"/>  -->
+<!-- 			<class name = "com.nopcommerce.myaccount.My_Account_Page_Object_Model"/> 	 -->
+			<class name = "com.nopcommerce.search.Search_Page_Object_Model"/>
+		</classes> 
+	</test>
+
+
+<!-- 	<test name="RUN ON CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.register.Register_Page_Object_Model" 
+				/>
+			<class name="com.nopcommerce.login.Login_Page_Object_Model" />
+			<class
+				name="com.nopcommerce.myaccount.My_Account_Page_Object_Model" />
+		</classes>
+	</test> -->
+
+</suite>
